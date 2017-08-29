@@ -1,0 +1,39 @@
+<html>
+    
+	<BODY style="background:url(new2222.jpg); background-repeat:no-repeat;background-size:100% 110%;padding:0px;background-color:black";>
+	
+	<center><b><i><h1 style="font size: 20%"> PLEASE FILL ALL THE FIELDS TO REGISTER IN NETCAMP</h1></i></b></center>								
+
+<form method="POST" action="connect.php"><br/>
+<P STYLE="margin:0cm 10cm">
+Enter your name : <br>
+<input type="text" name="m" size="30">*<br><br>
+Enter your email : <br>
+
+<input type="email" name="n" size="30">*<br><br>
+Enter your password : <br><input type="password" name="o" size="30"> *  <br><br>  
+Reenter your password : <br>
+<input type="password" name="q" size="30"> *  <br><br>  
+
+                                                
+ 
+Enter your phone : <br>
+<input type="number" name="p" size="50">*<br><br>
+
+
+Choose your college/School : <br>
+<select name="college/School">
+    <option value="LNMIIT">LNMIIT</option>
+    <option value="MNIT">MNIT</option>
+    <option value="DPS">DPS</option>
+    <option value="POORNIMA">POORNIMA</option>
+  </select></p>
+  <br>
+<input type="submit" value="Submit" style="margin-left:10cm;font-weight:bold;height:30px;width:200px;	 margin-top:1cm">
+<input type="reset" value="Reset" style="margin-left:1cm;font-weight:bold;height:30px;width:200px;	"><br>
+</form>
+<form method="POST" action="main page.php">
+<input type="submit" value="Back" style="height:30px; width:150px;font-size:18px;margin-left:14cm  ;"><br>
+</form>
+
+</html>
